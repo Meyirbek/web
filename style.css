@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+}
+.blackWapka{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	border-bottom:2px solid ;
+	border-bottom-color: green;
+	background-color: black;
+}
+.blueWapka{
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: blue;
+	margin-top: 72px;
+	opacity: 0.8;
+}
+.Search{
+	height: 35px;
+	width: 100px;
+	background-color: blue;
+	float: right;
+}
+header{
+
+
+}
+#image{
+	background: url('Datarc.png') ;
+	height: 50px;
+	width: 200px;
+}
+#image :hover{
+	color: white;
+
+
+}
+#homeHeader li{
+	list-style: none;
+}
+#homeHeader ul li{
+	z-index: 1;
+	color: white;
+	float: right;
+	font-size: 18px;
+	background-color: blue;
+	width:100px;
+	height: 50px;
+	border:1px solid blue;
+	line-height: 50px;
+	opacity: 0.5;
+
+}
+#homeHeader ul li:hover{
+	color: 	#7FFF00;
+
+}
